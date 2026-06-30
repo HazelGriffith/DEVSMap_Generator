@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "devsmap_generator.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
