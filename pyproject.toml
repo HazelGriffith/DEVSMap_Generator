@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "setuptools-scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devsmap_generator"
+dynamic = ["version"]
+authors = [{name = "Hazel Griffith", email = "hazelgriffith@cmail.carleton.ca"}]
+description = "Abstract classes for developing a DEVSMap generator"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["DEVSMap", "DEVS", "DEVS-EP"]
+classifiers = ["Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "Operating System :: Unix",
+    "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = 'https://github.com/HazelGriffith/DEVSMap_Generator'
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools_scm]
